@@ -1,4 +1,6 @@
 """ Main training script """
+import sys
+print("PYTHONPATH:", sys.path)
 
 import argparse
 import glob
