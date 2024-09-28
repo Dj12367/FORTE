@@ -9,7 +9,7 @@ from accelerate.hooks import add_hook_to_module, AlignDevicesHook
 
 from .configuration_otter import OtterConfig
 
-from flamingo.falcon.modelling_RW import RWForCausalLM
+from otter.flamingo.falcon.modelling_RW import RWForCausalLM
 from flamingo.mpt.modeling_mpt import MPTForCausalLM
 from flamingo.mpt_redpajama.mosaic_gpt import MosaicGPT
 
