@@ -23,7 +23,7 @@ from transformers import (
 import wandb
 # from flamingo.configuration_flamingo import FlamingoConfig
 # from flamingo.modeling_flamingo import FlamingoForConditionalGeneration
-from otter.modeling_otter import OtterForConditionalGeneration
+from otter_ai.models.otter.modeling_otter import OtterForConditionalGeneration
 from pipeline.train.data import get_data
 from pipeline.train.distributed import world_info_from_env
 from pipeline.train.train_utils import AverageMeter, get_checkpoint, get_checkpoint_deepspeed_zero3, get_image_attention_mask
