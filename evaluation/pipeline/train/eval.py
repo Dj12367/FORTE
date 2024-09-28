@@ -1,6 +1,13 @@
 """ Main training script """
 import sys
 print("PYTHONPATH:", sys.path)
+import sys
+import os
+
+print("Python Executable:", sys.executable)
+print("Python Version:", sys.version)
+print("Current Working Directory:", os.getcwd())
+print("PYTHONPATH:", os.environ.get('PYTHONPATH', 'Not Set'))
 
 import argparse
 import glob
