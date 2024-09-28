@@ -23,8 +23,8 @@ from transformers import (
 import wandb
 # from flamingo.configuration_flamingo import FlamingoConfig
 # from flamingo.modeling_flamingo import FlamingoForConditionalGeneration
-import os
-print(os.environ.get('PYTHONPATH', 'PYTHONPATH is not set'))
+import sys
+print("PYTHONPATH:", sys.path)
 from otter_ai.models.otter.modeling_otter import OtterForConditionalGeneration
 from pipeline.train.data import get_data
 from pipeline.train.distributed import world_info_from_env
