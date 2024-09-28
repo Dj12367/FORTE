@@ -11,3 +11,4 @@ CUDA_VISIBLE_DEVICES=1 /home/p20200470/miniconda3/envs/forte/bin/python -m accel
 --batch_size=1 \
 --warmup_steps_ratio=0.01 \
 --workers=1
+
