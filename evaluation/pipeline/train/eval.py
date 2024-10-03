@@ -512,7 +512,7 @@ def main():
     device_id = accelerator.device
     if args.pretrained_model_name_or_path is not None:
         accelerator.print(f"Loading pretrained model from {args.pretrained_model_name_or_path}")
-        device_map = "cuda:0" if torch.cuda.is_available() else "cpu"
+        device_map = "cuda"
         print(device_map)
         if "otter" in args.model_name.lower():
             model = OtterForConditionalGeneration.from_pretrained(
