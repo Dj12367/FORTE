@@ -1,4 +1,4 @@
-export PYTHONPATH="./evaluation:/home/p20200470/miniconda3/envs/forte/bin/python"
+export PYTHONPATH="./evaluation:/home/vinti/miniconda3/envs/forte/bin/python"
 source /home/p20200470/miniconda3/etc/profile.d/conda.sh
 conda activate forte
 #This code capture the report output during the optimization process and record the report to an excel file (which should be specified in /pipeline/train/eval.py
